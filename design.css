@@ -1,0 +1,48 @@
+body{
+    background-image: url('621d280492a9c1000165dd9e.jpg'); /* Your background image */
+    background-size: cover;
+    /* Scale the background accordingly */
+    margin: 0;
+    height: 100vh; /* Full viewport height */ 
+    overflow-x: hidden; /*prevents the image to slide horizontally*/
+}
+
+
+.container{
+    position: relative;
+    top: 20vh;
+    left: 25vw;
+    ;
+   
+}
+.search
+{
+    border-radius: 100px;
+    width: 28vw;
+    background-color: white;
+    height: 10vh;
+    
+}
+.search::placeholder{
+    color: blue;
+      font-size: 25px;
+}
+ /* this thiing down here increases the font size of the user input in the input feild */
+ .search[type="text"]{   
+    font-size: 34px;
+}
+/* THIS THING CHANGES THE FIELD HOWEVER I WANT WHEN I CLICK ON IT! */
+.search[type="text"]:focus{
+    outline:none;
+    border: solid red;
+}
+
+.btn
+{
+    border-radius: 100px;
+    color: black;
+    background-color: yellow;
+    position: relative;
+    top: 2.3vh;
+    
+}
