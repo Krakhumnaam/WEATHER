@@ -7,12 +7,24 @@ body{
     overflow-x: hidden; /*prevents the image to slide horizontally*/
 }
 
-
-.container{
+.whole_box
+{
+    border: solid red;
     position: relative;
     top: 20vh;
     left: 25vw;
-    ;
+    width: 49vw;
+    height: 63vh;
+   
+}
+
+.container{
+   
+
+    position: relative;
+    top: -39vh;
+    left: 30vw;
+    width: max-content;
    
 }
 .search
@@ -45,4 +57,59 @@ body{
     position: relative;
     top: 2.3vh;
     
+}
+.today_temp{
+   
+}
+B{
+    word-spacing: 12vw;
+}
+.tom{
+    word-spacing:8.9vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+       p{
+        display: none;
+     }
+     .search::placeholder{
+        font-size: 15px;
+        position: relative;
+        top: -1vh;
+        
+     }
+     .search{
+    height: 3vh;
+        position: relative;
+        top: vh;
+     }
+     .container{
+        position: relative;
+        
+       
+     }
+     .btn{
+        ;
+        position: relative;
+        top: -0.9vh;
+        border-radius: 23px;
+        
+     }
+   .icon
+   {
+       height: 2vh
+   }
 }
