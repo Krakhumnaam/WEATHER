@@ -11,7 +11,7 @@ body{
 {
     border: solid red;
     position: relative;
-    top: 20vh;
+    top: 17 vh;
     left: 25vw;
     width: 49vw;
     height: 63vh;
@@ -22,7 +22,7 @@ body{
    
 
     position: relative;
-    top: -39vh;
+    top: -60vh;
     left: 30vw;
     width: max-content;
    
@@ -58,13 +58,15 @@ body{
     top: 2.3vh;
     
 }
+.temp,
+.humidity,
+.wind_speed{
+          color:red;
+    font-size: larger;
+}
 
-B{
-    word-spacing: 12vw;
-}
-.tom{
-    word-spacing:8.9vw;
-}
+
+
 
 
 
@@ -100,7 +102,7 @@ B{
        
      }
      .btn{
-        ;
+        
         position: relative;
         top: -0.9vh;
         border-radius: 23px;
@@ -111,3 +113,4 @@ B{
        height: 2vh
    }
 }
+
