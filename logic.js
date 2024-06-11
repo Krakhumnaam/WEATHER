@@ -10,12 +10,12 @@
       document.querySelector(".humidity").innerHTML= "HUMIDITY:"+result.main.humidity+"%"
       document.querySelector(".temp").innerHTML= "TEMPERATURE: "+ result.main.temp +"°C"
       document.querySelector(".wind_speed").innerHTML = "WIND SPEED:"  + result.wind.speed + "km/hr"
-      if(result.weather[0].main == "Clouds")
-    {
-        document.querySelector(".weather_icon").src="C:\Users\DELL\Desktop\GIT\WEATHER\CLOUDS.png"
-    }
+// yo aako chaina hai!      if(result.weather[0].main == "Clouds")
+//     {
+//         document.querySelector(".weather_icon").src="C:\Users\DELL\Desktop\GIT\WEATHER\CLOUDS.png"
+//     }
            
-}
+ }
 document.getElementById('search_btn').onclick=()=>{
     var searchedPlace= document.getElementById('search_city').value
 
