@@ -108,7 +108,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:633.5999999999999px) {
        p{
         display: none;
      }
@@ -147,7 +147,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 .search[type="text"]:focus{   
     .whole_box{
-        height: 68vh;
+        height: 100vh;
     }
 }
 .temp,
