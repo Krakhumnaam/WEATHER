@@ -20,9 +20,8 @@ body{
 
 .container{
    
-
     position: relative;
-    top: -60vh;
+    top: -62vh;
     left: 30vw;
     width: max-content;
    
@@ -45,8 +44,8 @@ body{
 }
 /* THIS THING CHANGES THE FIELD HOWEVER I WANT WHEN I CLICK ON IT! */
 .search[type="text"]:focus{
-    outline:none;
-    border: solid red;
+    border:none;
+    border:  red;
 }
 
 .btn
@@ -65,10 +64,38 @@ body{
     font-size: larger;
 }
 
+.weather_icon 
+{    position: relative;
+    top: 46%;
+    left: 60%;
 
+ height: 10vh;
+ width: 6vw;
 
+}
 
+.city_name
 
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.describe 
+{
+    position: relative;
+    top :  -6vh;
+    left: 13%;
+font-size:xx-large ;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.weather_icon,
+.humidity,
+.temp,
+.wind_speed,
+.describe,
+.city_name{
+    display: none;
+}
 
 
 
@@ -104,7 +131,7 @@ body{
      .btn{
         
         position: relative;
-        top: -0.9vh;
+        top: -0.3vh;
         border-radius: 23px;
         
      }
@@ -112,5 +139,37 @@ body{
    {
        height: 2vh
    }
+
+   .search[type="text"]{   
+    font-size: 23px;
+}
+.temp,
+.humidity,
+.wind_speed{
+          color:red;
+    font-size: larger;
+    position: relative;
+    left: -0.7vw;
+
+
+}
+.city_name{
+    position: relative;
+    left: -3vw;
+    font-size: 20px;
+color: blueviolet;
+}
+.describe{
+    position: relative;
+    left: 1.5vw;
+}
+.weather_icon{
+    position: relative;
+    left: 28vw;
+    top: 2vh;
+    height: 10vh;
+    width:9vw
+    
+}
 }
 
