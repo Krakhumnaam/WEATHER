@@ -143,6 +143,13 @@ font-family: Georgia, 'Times New Roman', Times, serif;
    .search[type="text"]{   
     font-size: 23px;
 }
+
+
+.search[type="text"]:focus{   
+    .whole_box{
+        height: 68vh;
+    }
+}
 .temp,
 .humidity,
 .wind_speed{
